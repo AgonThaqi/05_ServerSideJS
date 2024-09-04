@@ -1,0 +1,23 @@
+{
+  "name": "05_serversidejs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest",
+    "serve": "node --watch src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@getgauge/cli": "1.6.8",
+    "supertest": "7.0.0",
+    "taiko": "1.4.1",
+    "vitest": "2.0.5"
+  },
+  "dependencies": {
+    "express": "4.19.2"
+  }
+}
+
